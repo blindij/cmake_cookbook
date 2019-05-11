@@ -8,6 +8,9 @@ endif(NOT WIN32)
 add_library(geometry
    STATIC
    geometry_circle.cpp
+   geometry_polygon.cpp
+   geometry_rhombus.cpp
+   geometry_square.cpp
 )
 
 # we set compile options for this library target:
