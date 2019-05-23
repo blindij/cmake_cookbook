@@ -1,3 +1,6 @@
+# temporary Visual Code files
+.vscode/*
+
 # temporary vim files
 *.swp
 *.swo
