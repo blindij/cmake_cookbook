@@ -11,7 +11,7 @@ define_colors()
 
 # print messages in different colors:
 message(STATUS "This is a normal message")
-message(STATUS "${Red} is red${ColourReset}")
+message(STATUS "${Red}This is red${ColourReset}")
 message(STATUS "${BoldRed}This is a bold red${ColourReset}")
 message(STATUS "${Green}This is a green${ColourReset}")
 message(STATUS "${BoldMagenta}This is a bold${ColourReset}")
