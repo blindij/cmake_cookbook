@@ -10,7 +10,8 @@ int main() {
 
    // query and print the rank
    int rank;
-   MPI COMM_rank(MPI_COMM_WORLD, &rank);
+   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+
    std::cout << "hello from rank " << rank << std::endl;
 
    // Finalize MPI

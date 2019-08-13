@@ -29,7 +29,7 @@ target_compile_definitions(example
 if (MPI_FOUND)
    include(CMakePrintHelpers)
    cmake_print_properties(
-      TARGETS MPI::MPI::CXX
+      TARGETS MPI::MPI_CXX
       PROPERTIES INTERFACE_LINK_LIBRARIES
    )
 endif()
